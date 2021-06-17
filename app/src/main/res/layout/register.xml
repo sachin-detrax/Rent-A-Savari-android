@@ -22,8 +22,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="412dp"
-        android:layout_height="616dp"
+        android:layout_width="420dp"
+        android:layout_height="574dp"
         android:background="@drawable/bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,9 +67,9 @@
             android:hint="Date Of Birth"
             android:inputType="date"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintHorizontal_bias="0.39"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="144dp" />
+            tools:layout_editor_absoluteY="128dp" />
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -78,16 +78,16 @@
             android:layout_marginStart="16dp"
             android:text="Adhar Card"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="234dp" />
+            tools:layout_editor_absoluteY="202dp" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="32dp"
             android:text="Passport"
             app:layout_constraintStart_toEndOf="@+id/radioButton"
-            tools:layout_editor_absoluteY="238dp" />
+            tools:layout_editor_absoluteY="206dp" />
 
         <RadioButton
             android:id="@+id/radioButton3"
@@ -96,9 +96,9 @@
             android:layout_marginEnd="68dp"
             android:text="PAN"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.965"
+            app:layout_constraintHorizontal_bias="0.964"
             app:layout_constraintStart_toEndOf="@+id/radioButton2"
-            tools:layout_editor_absoluteY="237dp" />
+            tools:layout_editor_absoluteY="206dp" />
 
         <EditText
             android:id="@+id/editTextNumber"
@@ -108,9 +108,9 @@
             android:hint="Phone Number"
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.315"
+            app:layout_constraintHorizontal_bias="0.317"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="376dp" />
+            tools:layout_editor_absoluteY="339dp" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -120,9 +120,9 @@
             android:hint="Email"
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.315"
+            app:layout_constraintHorizontal_bias="0.317"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="456dp" />
+            tools:layout_editor_absoluteY="421dp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
