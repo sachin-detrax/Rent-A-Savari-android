@@ -2,4 +2,24 @@
     <string name="app_name">Rent A Savari</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="carname">Mahindra KUV 100</string>
+    <string name="carseat">5 Seater</string>
+    <string name="smallpackage">Rs 7750\n360 KMs</string>
+    <string name="mediumpackage">Rs 7750\n360 KMs</string>
+    <string name="highpackage">Rs 7750\n360 KMs</string>
+    <string name="carimage">CarImage</string>
+    <string name="btn_find_car">Find Car</string>
+    <string name="btnfilter">Filter</string>
+    <string name="starttime">--:--</string>
+    <string name="startAMPM">--</string>
+    <string name="starticoncal">starticoncal</string>
+    <string name="startday">---------</string>
+    <string name="select_pickup_time">Select PickUp Time</string>
+    <string name="select_drop_time">Select Drop Time</string>
+    <string name="enddate">---- -- ----</string>
+    <string name="startdate">---- -- ----</string>
+    <string name="endAMPM">--</string>
+    <string name="endtime">--:--</string>
+    <string name="endday">---------</string>
+    <string name="endcalicon">endiconcal</string>
 </resources>

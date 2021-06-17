@@ -24,72 +24,65 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/bgcircle"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent=".78"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="MissingClass">
+        app:layout_constraintVertical_bias="1.0">
 
         <EditText
-            android:id="@+id/phoneNumber"
-            android:layout_width="338dp"
-            android:layout_height="54dp"
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
             android:background="@drawable/edit_text"
-            android:gravity="center"
-            android:hint="Enter your Phone Number"
+            android:ems="10"
+            android:fontFamily="@font/adamina"
+            android:hint="Enter your OTP"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.259" />
+            app:layout_constraintVertical_bias="0.356" />
 
         <EditText
-            android:id="@+id/OTP"
-            android:layout_width="338dp"
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
             android:layout_height="54dp"
             android:background="@drawable/edit_text"
-            android:gravity="center"
-            android:hint="Enter OTP"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/adamina"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.417" />
+            app:layout_constraintVertical_bias="0.208" />
 
         <Button
-            android:id="@+id/Login"
+            android:id="@+id/button2"
             android:layout_width="192dp"
             android:layout_height="54dp"
-            android:layout_marginBottom="180dp"
-            android:background="@drawable/btn"
+            android:layout_marginBottom="188dp"
+            android:background="@drawable/btnshape"
+            android:fontFamily="@font/adamina"
             android:text="Login"
-            android:textColorHighlight="@color/black"
+            android:textColor="@color/white"
+            android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <TextView
-            android:id="@+id/Resend_OTP"
-            android:layout_width="106dp"
-            android:layout_height="24dp"
-            android:layout_marginTop="84dp"
-            android:gravity="center"
-            android:text="Resend OTP"
-            android:textColor="#92F603"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Login"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+            app:layout_constraintVertical_bias="1.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

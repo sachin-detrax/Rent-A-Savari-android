@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    android:paddingTop="10dp"
+    tools:context=".HomePage">
+
+    <RelativeLayout
+        android:id="@+id/startLayout"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgcircle"
+        android:padding="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/endLayout"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iconstartCal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/pickupTime"
+            android:background="@drawable/bgcircle"
+            android:padding="3dp"
+            android:src="@drawable/baseline_date_range_24"
+            android:contentDescription="@string/starticoncal" />
+
+        <TextView
+            android:id="@+id/pickupTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/adamina"
+            android:padding="5dp"
+            android:text="@string/select_pickup_time"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/startday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startdate"
+            android:layout_toEndOf="@+id/iconstartCal"
+            android:fontFamily="@font/adamina"
+            android:padding="3dp"
+            android:text="@string/startday"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pickupTime"
+            android:layout_toEndOf="@id/iconstartCal"
+            android:fontFamily="@font/adamina"
+            android:padding="4dp"
+            android:text="@string/startdate"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/starttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startdate"
+            android:layout_toEndOf="@id/startday"
+            android:fontFamily="@font/adamina"
+            android:padding="3dp"
+            android:text="@string/starttime"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/startAM_PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startdate"
+            android:layout_toEndOf="@id/starttime"
+            android:fontFamily="@font/adamina"
+            android:paddingTop="3dp"
+            android:text="@string/startAMPM"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/endLayout"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/startLayout"
+        android:background="@drawable/bgcircle"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/startLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iconendCal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/dropTime"
+            android:background="@drawable/bgcircle"
+            android:padding="3dp"
+            android:src="@drawable/baseline_date_range_24"
+            android:contentDescription="@string/endcalicon" />
+
+        <TextView
+            android:id="@+id/dropTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/adamina"
+            android:padding="5dp"
+            android:text="@string/select_drop_time"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/endday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enddate"
+            android:layout_toEndOf="@+id/iconendCal"
+            android:fontFamily="@font/adamina"
+            android:padding="3dp"
+            android:text="@string/endday"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/enddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dropTime"
+            android:layout_toEndOf="@id/iconendCal"
+            android:fontFamily="@font/adamina"
+            android:padding="4dp"
+            android:text="@string/enddate"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/endtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enddate"
+            android:layout_toEndOf="@id/endday"
+            android:fontFamily="@font/adamina"
+            android:padding="3dp"
+            android:text="@string/endtime"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/endAM_PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enddate"
+            android:layout_toEndOf="@id/endtime"
+            android:fontFamily="@font/adamina"
+            android:paddingTop="3dp"
+            android:text="@string/endAMPM"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/findcarbtn"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btnshape"
+        android:fontFamily="@font/adamina"
+        android:text="@string/btn_find_car"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintEnd_toStartOf="@+id/filterbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startLayout" />
+
+    <Button
+        android:id="@+id/filterbtn"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btnshape"
+        android:fontFamily="@font/adamina"
+        android:text="@string/btnfilter"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/findcarbtn"
+        app:layout_constraintTop_toBottomOf="@+id/endLayout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findcarbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
