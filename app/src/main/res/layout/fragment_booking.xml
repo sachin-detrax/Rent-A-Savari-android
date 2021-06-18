@@ -19,38 +19,20 @@
             android:layout_width="51dp"
             android:layout_height="66dp"
             android:src="@drawable/ic_baseline_receipt_24" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:fontFamily="@font/poppins_semibold"
         android:text="My Bookings"
-        android:layout_gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-
-
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            app:cardCornerRadius="15dp">
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="80dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="15dp"
-                android:src="@drawable/democar"/>
-
-
-        </androidx.cardview.widget.CardView>
-
-
-
-
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"/>
 
 
 </LinearLayout>
