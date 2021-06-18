@@ -47,7 +47,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.454"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+            app:layout_constraintTop_toBottomOf="@+id/Register_Email" />
 
         <EditText
             android:id="@+id/phoneNumber3"
@@ -58,7 +58,7 @@
             android:hint="Enter Adhar/Passport/PAN detail"
             android:inputType="number"
             android:paddingLeft="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+            app:layout_constraintBottom_toTopOf="@+id/Register_mobilenumber"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.25"
             app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/Register_FirstName" />
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -118,7 +118,7 @@
             app:layout_constraintVertical_bias="0.507" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/Register_mobilenumber"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:ems="10"
@@ -127,14 +127,14 @@
             android:inputType="number"
             android:paddingLeft="20dp"
             android:fontFamily="@font/adamina"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+            app:layout_constraintBottom_toTopOf="@+id/Register_Email"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/phoneNumber3" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/Register_Email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:ems="10"
@@ -147,10 +147,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+            app:layout_constraintTop_toBottomOf="@+id/Register_mobilenumber" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/Register_FirstName"
             android:layout_width="190dp"
             android:layout_height="50dp"
             android:ems="10"
@@ -160,13 +160,13 @@
             android:inputType="textPersonName"
             android:fontFamily="@font/adamina"
             app:layout_constraintBottom_toTopOf="@+id/editTextDate"
-            app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+            app:layout_constraintEnd_toStartOf="@+id/Register_LastName"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/Register_LastName"
             android:layout_width="190dp"
             android:layout_height="50dp"
             android:ems="10"
@@ -178,7 +178,7 @@
             app:layout_constraintBottom_toTopOf="@+id/editTextDate"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+            app:layout_constraintStart_toEndOf="@+id/Register_FirstName"
             app:layout_constraintTop_toTopOf="parent" />
 
 
