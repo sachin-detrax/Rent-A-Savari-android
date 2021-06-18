@@ -17,8 +17,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintTop_toBottomOf="@+id/Prof_Email"
+        app:layout_constraintVertical_bias="0.41" />
 
     <Button
         android:id="@+id/submit"
@@ -56,7 +56,7 @@
         android:id="@+id/Prof_DOB"
         android:layout_width="366dp"
         android:layout_height="50dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="176dp"
         android:background="@drawable/edit_text"
         android:ems="10"
         android:fontFamily="@font/adamina"
@@ -72,7 +72,7 @@
         android:id="@+id/Prof_LastName"
         android:layout_width="228dp"
         android:layout_height="54dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/edit_text"
         android:ems="10"
         android:fontFamily="@font/adamina"
@@ -80,7 +80,7 @@
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.841"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -97,15 +97,15 @@
         android:paddingLeft="20dp"
         app:layout_constraintBottom_toTopOf="@+id/Prof_LastName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.511" />
 
     <ImageView
         android:id="@+id/Profile_Image"
-        android:layout_width="110dp"
-        android:layout_height="114dp"
+        android:layout_width="132dp"
+        android:layout_height="153dp"
         android:layout_marginLeft="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,10 +122,10 @@
         android:text="Male"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583" />
+        app:layout_constraintVertical_bias="0.613" />
 
     <CheckBox
         android:id="@+id/female"
@@ -137,7 +137,7 @@
         app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583" />
+        app:layout_constraintVertical_bias="0.613" />
 
     <EditText
         android:id="@+id/Prof_Email"
