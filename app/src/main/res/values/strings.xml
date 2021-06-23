@@ -4,9 +4,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="carname">Mahindra KUV 100</string>
     <string name="carseat">5 Seater</string>
-    <string name="smallpackage">Rs 7750\n360 KMs</string>
-    <string name="mediumpackage">Rs 7750\n360 KMs</string>
-    <string name="highpackage">Rs 7750\n360 KMs</string>
+    <string name="smallpackage">Rs 2250\n150 KMs</string>
+    <string name="mediumpackage">Rs 5550\n350 KMs</string>
+    <string name="highpackage">Rs 9500\n600 KMs</string>
     <string name="carimage">CarImage</string>
     <string name="btn_find_car">Find Car</string>
     <string name="btnfilter">Filter</string>
@@ -22,5 +22,18 @@
     <string name="endtime">--:--</string>
     <string name="endday">---------</string>
     <string name="endcalicon">endiconcal</string>
+    <string name="driving_licence_photo_front_txt">Driving Licence Photo (Front)</string>
+    <string name="driving_licence_photo_back_txt">Driving Licence Photo (Back)</string>
+    <string name="address_proof_photo_front_txt">Address Proof Photo (Front)</string>
+    <string name="address_proof_photo_back_txt">Address Proof Photo (Back)</string>
+    <string name="capture_address_proof_back">TODO</string>
+    <string name="address_proof_back">TODO</string>
+    <string name="capture_address_proof_front">TODO</string>
+    <string name="address_proof_front">TODO</string>
+    <string name="capture_licence_back">TODO</string>
+    <string name="licence_back">TODO</string>
+    <string name="capture_licence_front">TODO</string>
+    <string name="licence_front">TODO</string>
+    <string name="continuebtn">Continue</string>
     <string name="fare_fuel_policy"><![CDATA[Fare & Fuel Policy]]></string>
 </resources>

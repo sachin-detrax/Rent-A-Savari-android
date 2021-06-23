@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -111,7 +112,7 @@ public class HomePage extends AppCompatActivity {
                         }
                         calendar.set(Calendar.HOUR_OF_DAY,hourOfDay);
                         calendar.set(Calendar.MINUTE,minute);
-                        SimpleDateFormat startDayFormat = new SimpleDateFormat("EEEE");
+                        SimpleDateFormat startDayFormat = new SimpleDateFormat("EEE");
                         startDay.setText(startDayFormat.format(calendar.getTime()));
                         SimpleDateFormat startDateFormat = new SimpleDateFormat("MMMM  dd  yyyy");
                         startDate.setText(startDateFormat.format(calendar.getTime()));
@@ -153,7 +154,7 @@ public class HomePage extends AppCompatActivity {
                         }
                         calendar.set(Calendar.HOUR_OF_DAY,hourOfDay);
                         calendar.set(Calendar.MINUTE,minute);
-                        SimpleDateFormat endDayFormat = new SimpleDateFormat("EEEE");
+                        SimpleDateFormat endDayFormat = new SimpleDateFormat("EEE");
                         endDay.setText(endDayFormat.format(calendar.getTime()));
                         SimpleDateFormat endDateFormat = new SimpleDateFormat("MMMM  dd  yyyy");
                         endDate.setText(endDateFormat.format(calendar.getTime()));
@@ -170,5 +171,20 @@ public class HomePage extends AppCompatActivity {
 
     private void showCarList() {
         recyclerView.setAdapter(clAdapter);
+    }
+
+    public void onClickSmallPackage(View view) {
+        Intent i = new Intent(HomePage.this,PrivacyPolicies.class);
+        startActivity(i);
+    }
+
+    public void onClickMediumPackage(View view) {
+        Intent i = new Intent(HomePage.this,UploadDocs.class);
+        startActivity(i);
+    }
+
+    public void onClickHighPackage(View view) {
+        Intent i = new Intent(HomePage.this,UploadDocs.class);
+        startActivity(i);
     }
 }
