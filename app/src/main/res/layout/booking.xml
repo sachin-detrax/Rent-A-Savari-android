@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="start"
 
-    tools:context=".BookingFragment">
+    tools:context=".Booking">
 
 
 
