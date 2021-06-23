@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/layoutbg"
-    >
+    android:background="@drawable/layoutbg">
 
     <RelativeLayout
 
@@ -66,6 +65,7 @@
                 android:text="@string/smallpackage"
                 android:textColor="@color/white"
                 android:textSize="12sp"
+                android:onClick="onClickSmallPackage"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/mediumPackage"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -81,6 +81,7 @@
                 android:fontFamily="@font/adamina"
                 android:lineSpacingExtra="5dp"
                 android:text="@string/mediumpackage"
+                android:onClick="onClickMediumPackage"
                 android:textColor="@color/white"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -97,6 +98,7 @@
                 android:background="@drawable/btnshape"
                 android:fontFamily="@font/adamina"
                 android:lineSpacingExtra="5dp"
+                android:onClick="onClickHighPackage"
                 android:text="@string/highpackage"
                 android:textColor="@color/white"
                 android:textSize="12sp"

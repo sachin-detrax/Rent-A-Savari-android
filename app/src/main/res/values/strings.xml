@@ -24,4 +24,17 @@
     <string name="endcalicon">endiconcal</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="driving_licence_photo_front_txt">Driving Licence Photo (Front)</string>
+    <string name="driving_licence_photo_back_txt">Driving Licence Photo (Back)</string>
+    <string name="address_proof_photo_front_txt">Address Proof Photo (Front)</string>
+    <string name="address_proof_photo_back_txt">Address Proof Photo (Back)</string>
+    <string name="capture_address_proof_back">TODO</string>
+    <string name="address_proof_back">TODO</string>
+    <string name="capture_address_proof_front">TODO</string>
+    <string name="address_proof_front">TODO</string>
+    <string name="capture_licence_back">TODO</string>
+    <string name="licence_back">TODO</string>
+    <string name="capture_licence_front">TODO</string>
+    <string name="licence_front">TODO</string>
+    <string name="continuebtn">Continue</string>
 </resources>
