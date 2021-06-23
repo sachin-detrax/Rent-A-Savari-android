@@ -22,4 +22,6 @@
     <string name="endtime">--:--</string>
     <string name="endday">---------</string>
     <string name="endcalicon">endiconcal</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

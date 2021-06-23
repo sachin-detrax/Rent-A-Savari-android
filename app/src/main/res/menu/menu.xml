@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:id="@+id/navhome" />
+
+        <item
+            android:title="My Trips"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:id="@+id/navmytrips" />
+
+        <item
+            android:title="Edit Profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:id="@+id/navprofile" />
+
+        <item
+            android:title="Logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:id="@+id/navlogout" />
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Privacy Policy"
+                    android:icon="@drawable/ic_baseline_policy_24"
+                    android:id="@+id/navprivacypolicy" />
+                <item
+                    android:title="Contact Us"
+                    android:icon="@drawable/ic_baseline_support_agent_24"
+                    android:id="@+id/navcontactus" />
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

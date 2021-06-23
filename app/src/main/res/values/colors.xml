@@ -10,5 +10,6 @@
     <color name="background">#D4D4DF</color>
     <color name="green">#8BC34A</color>
     <color name="red">#F44336</color>
+    <color name="secondarycolor">#DC4433</color>
 
 </resources>
