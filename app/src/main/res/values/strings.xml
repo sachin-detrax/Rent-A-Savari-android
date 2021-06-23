@@ -22,4 +22,5 @@
     <string name="endtime">--:--</string>
     <string name="endday">---------</string>
     <string name="endcalicon">endiconcal</string>
+    <string name="fare_fuel_policy"><![CDATA[Fare & Fuel Policy]]></string>
 </resources>
