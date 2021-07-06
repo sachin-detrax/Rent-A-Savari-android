@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <EditText
-            android:id="@+id/editTextTextPassword2"
+            android:id="@+id/Otp"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/edit_text"
@@ -46,20 +46,19 @@
             android:paddingLeft="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.356" />
+            app:layout_constraintVertical_bias="0.396" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/MobileNumber"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:background="@drawable/edit_text"
+            android:fontFamily="@font/adamina"
             android:hint="Mobile Number"
             android:inputType="number"
             android:paddingLeft="20dp"
-            android:fontFamily="@font/adamina"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
@@ -68,10 +67,10 @@
             app:layout_constraintVertical_bias="0.208" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/Login"
             android:layout_width="192dp"
             android:layout_height="54dp"
-            android:layout_marginBottom="188dp"
+            android:layout_marginBottom="44dp"
             android:background="@drawable/btnshape"
             android:fontFamily="@font/adamina"
             android:text="Login"
@@ -79,10 +78,21 @@
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/Send_Otp"
+            android:layout_width="160dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="76dp"
+            android:text="Send OTP"
+            app:layout_constraintBottom_toTopOf="@+id/Login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@+id/Otp"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
